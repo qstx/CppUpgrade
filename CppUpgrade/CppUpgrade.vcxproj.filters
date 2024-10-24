@@ -15,21 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Class\Int.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Int.cpp">
+    <ClCompile Include="Singleton\Singleton.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Main.h">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Int.h">
+    <ClInclude Include="Class\Int.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Allocator.h">
+    <ClInclude Include="Class\Allocator.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="String.h">
+    <ClInclude Include="Class\String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton\Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton\Main.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
