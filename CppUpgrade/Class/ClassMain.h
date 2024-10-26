@@ -4,7 +4,7 @@
 #include "Int.h"
 #include "String.h"
 
-void class_main()
+void Class_Main()
 {
 	//Èý·¨Ôò
 	{

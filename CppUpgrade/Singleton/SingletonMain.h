@@ -3,11 +3,19 @@
 
 //extern Singleton* s_instance;
 
-int singleton_main()
+void Singleton_Main()
 {
 	Singleton::Init();
 	//s_instance = nullptr;
 	Singleton::GetInstance()->PrintSomething();
 	Singleton::Shutdown();
-	return 0;
+}
+
+#include "App.h"
+
+void Singleton_Main1()
+{
+	App::Init();
+	App::GetInstance()->PrintSomething();
+	App::Shutdown();
 }

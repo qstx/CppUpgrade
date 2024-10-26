@@ -143,16 +143,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Singleton\App.cpp" />
     <ClCompile Include="Class\Int.cpp" />
-    <ClCompile Include="Class\Main.h" />
+    <ClCompile Include="Class\ClassMain.h" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Singleton\Singleton.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Singleton\App.h" />
     <ClInclude Include="Class\Allocator.h" />
     <ClInclude Include="Class\Int.h" />
     <ClInclude Include="Class\String.h" />
-    <ClInclude Include="Singleton\Main.h" />
+    <ClInclude Include="Singleton\SingletonMain.h" />
     <ClInclude Include="Singleton\Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

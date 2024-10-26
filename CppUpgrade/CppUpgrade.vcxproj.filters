@@ -24,8 +24,11 @@
     <ClCompile Include="Singleton\Singleton.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Class\Main.h">
+    <ClCompile Include="Class\ClassMain.h">
       <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton\App.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -41,7 +44,10 @@
     <ClInclude Include="Singleton\Singleton.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Singleton\Main.h">
+    <ClInclude Include="Singleton\SingletonMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton\App.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

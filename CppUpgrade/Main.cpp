@@ -1,7 +1,6 @@
-#include "Singleton/Main.h"
+#include "Singleton/SingletonMain.h"
 
 int main()
 {
-	singleton_main();
-	return 0;
+	Singleton_Main1();
 }
