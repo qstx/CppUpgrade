@@ -148,14 +148,17 @@
     <ClCompile Include="Class\ClassMain.h" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Singleton\Singleton.cpp" />
+    <ClCompile Include="Lock\SpinLock.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Lock\LockMain.h" />
     <ClInclude Include="Singleton\App.h" />
     <ClInclude Include="Class\Allocator.h" />
     <ClInclude Include="Class\Int.h" />
     <ClInclude Include="Class\String.h" />
     <ClInclude Include="Singleton\SingletonMain.h" />
     <ClInclude Include="Singleton\Singleton.h" />
+    <ClInclude Include="Lock\SpinLock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

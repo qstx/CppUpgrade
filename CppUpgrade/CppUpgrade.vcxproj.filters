@@ -30,6 +30,9 @@
     <ClCompile Include="Singleton\App.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Lock\SpinLock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class\Int.h">
@@ -48,6 +51,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Singleton\App.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock\LockMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock\SpinLock.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

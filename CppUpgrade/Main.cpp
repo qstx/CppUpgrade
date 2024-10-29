@@ -1,6 +1,6 @@
-#include "Singleton/SingletonMain.h"
+#include "Lock/LockMain.h"
 
 int main()
 {
-	Singleton_Main1();
+	LockMain();
 }
